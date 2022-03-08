@@ -9,6 +9,12 @@
     ("arif", 29)
 };
 
+ var result = from obj in persons
+              where obj.age > 30
+              orderby obj.name descending
+              select obj;
+
+
 string[] result;
 
 /* Here write linq query to find names of persons that are above 30 years 
