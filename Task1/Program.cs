@@ -1,4 +1,10 @@
-﻿(string name, int age)[] persons = new (string name, int age)[]
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Queryable
+using System.Linq.Enumerable
+
+(string name, int age)[] persons = new (string name, int age)[]
 {
     ("tareq", 24),
     ("hasan" , 34),
